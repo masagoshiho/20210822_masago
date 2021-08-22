@@ -1,0 +1,32 @@
+.inc {
+  width: 70px;
+  height: 20px;
+}
+
+.title {
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  color: darkgray;
+  float: right;
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 70%;
+}
+
+.absolte {
+  font-family: 'Indie Flower';
+  font-size: 50px;
+  color: mediumvioletred;
+  position: absolute;
+  top: 50%;
+  left: 50%
+}
