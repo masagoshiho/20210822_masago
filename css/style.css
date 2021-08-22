@@ -19,14 +19,32 @@
 .relative__img {
   margin: 0 0 0 auto;
   display: block;
-  width: 70%;
+  width: 50%;
+  right: 50%;
 }
 
-.absolte {
+.absolute {
   font-family: 'Indie Flower';
   font-size: 50px;
   color: mediumvioletred;
   position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+span {
+  color: aqua;
+}
+
+.commit {
+  color: mediumvioletred;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.text {
+  color: darkgray;
+  position: absolute;
   top: 50%;
-  left: 50%
 }
