@@ -120,19 +120,17 @@ span {
   justify-content: space-around;
 }
 
+.item__img {
+top: 50%;
+display: flex;
+}
+
 .item__content {
   color: grey;
   top: 30%;
   left: 50px;
-  display: flex;
+  
 }
-
-
-.item__img {
-height: 50px;
-width: 50px;
-}
-
 
 .grid__parent {
   display: grid;
