@@ -122,19 +122,20 @@ span {
 
 .item__content {
   color: grey;
+  top: 30%;
   left: 50px;
   display: flex;
 }
 
 
 .item__img img {
-  width: 60%;
-  height: 60%;
+  width: 50px;
+  height: 50px;
 }
 
 .item__img {
-height: 60%;
-width: 60%;
+height: 50px;
+width: 50px;
 }
 
 
