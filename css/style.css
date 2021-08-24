@@ -120,6 +120,13 @@ span {
   justify-content: space-around;
 }
 
+.item__content {
+  color: grey;
+  left: 50px;
+  display: flex;
+}
+
+
 .item__img img {
   width: 60%;
   height: 60%;
@@ -128,11 +135,25 @@ span {
 .item__img {
 height: 60%;
 width: 60%;
-display: flex;
 }
 
-.item__content {
-  color: grey;
-  left: 50px;
+
+.grid__parent {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 2fr;
 }
 
+.grid__parent div {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background: mediumvioletred;
+  width: 50%;
+  height: 50%;
+}
