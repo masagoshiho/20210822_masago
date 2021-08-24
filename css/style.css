@@ -128,14 +128,9 @@ span {
 }
 
 
-.item__img img {
-  width: 20px;
-  height: 20px;
-}
-
 .item__img {
-height: 20px;
-width: 20px;
+height: 50px;
+width: 50px;
 }
 
 
