@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.relative {
+.growth {
   width: 60%;
   height: 60%;
   position: relative;
@@ -21,18 +21,18 @@
   right: 0;
 }
 
-.relative__img {
+.growth__img {
   margin: 0 30% 0 auto;
   display: block;
-  top: 50%;
-  left: 50%;
-  width: 60%;
-  height: 60%;
+  top: 40px;
+  right: 50px;
+  width: 70%;
+  height: 70%;
 }
 
 .title-wrap {
   position: absolute;
-  top: 20%;
+  top: 50px;
   left: -20%;
 }
 
@@ -40,7 +40,7 @@
   font-family: 'Indie Flower';
   font-size: 50px;
   color: mediumvioletred;
-
+top: 50%;
 }
 
 span {
