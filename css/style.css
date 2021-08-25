@@ -65,6 +65,7 @@ span {
 
 .sample {
   font-size: 14px;
+  margin-left: 20%;
   color: grey;
   left: 50px;
 }
@@ -75,6 +76,7 @@ span {
 
 .news {
   font-size: 14px;
+  margin-left: 20%;
   color: darkgray;
   display: flex;
 }
@@ -86,6 +88,7 @@ span {
   border-radius: 20px;
   background-color: mediumvioletred;
   text-align: center;
+  margin-left: 20%;
   margin: 5px;
   display: block;
 }
