@@ -9,14 +9,13 @@
   display: flex;
   color: darkgray;
   float: right;
+  flex-direction: row;
+}
+
+.style {
+  margin: 0 10px;
   justify-content: space-between;
 }
-
-.mgr-10 {
-  color: darkgray;
-  margin-right: 10px;
-}
-
 
 .growth {
   width: 60%;
