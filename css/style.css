@@ -78,7 +78,7 @@ span {
   font-size: 14px;
   margin-left: 20%;
   color: darkgray;
-  display: flex;
+  list-style: none;
 }
 
 .btn {
