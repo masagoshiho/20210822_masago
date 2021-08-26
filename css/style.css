@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+.mgr-10 {
+  color: darkgray;
+  margin-right: 10px;
+}
+
+
 .growth {
   width: 60%;
   height: 70%;
@@ -70,15 +76,15 @@ span {
   left: 50px;
 }
 
-.blod {
-  border: solid 0.5px darkgray;
-}
 
 .news {
   font-size: 14px;
   margin-left: 20%;
   color: darkgray;
   list-style: none;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+
 }
 
 .btn {
