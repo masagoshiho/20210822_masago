@@ -38,7 +38,8 @@ header {
 .title-wrap {
   position: absolute;
   top: 53px;
-  left: -30%;
+  right: 50%;
+  margin: auto;
 }
 
 .absolute {
@@ -107,7 +108,6 @@ span {
   background-color: #ebebeb;
   padding: 60px 0;
   margin-top: 100px;
-  justify-content: space-around;
 }
 
 .about {
@@ -126,24 +126,18 @@ span {
 }
 
 .item__img img {
-  width: 50%;
-  height: 50%;
-  right: 30%;
-  margin: 30px 10px;
+ background-image: url("../img/about.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: right;
+ width: 30%;
+ height: 30%;
 }
 
-.item__img {
-top: 50%;
-display: flex;
-width: 50%;
-height: 50%;
-}
 
 .item__content {
   color: grey;
   top: 30%;
-  left: 50px;
-  margin-left: 0%;
 }
 
 .service {
@@ -160,15 +154,105 @@ height: 50%;
   top: 50%;
 }
 
-h4 {
+.photo {
+
+}
+
+
+.first__img {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+width: 50%;
+}
+
+.box {
+  height: 300px;
+}
+
+.child {
+  height: 50%;
+}
+
+.box1 {
+  background-color: mediumvioletred;
+  height: 300px;
+  
+}
+
+.child1 {
+  background-color: palevioletred;
+  height: 150px;
+}
+
+.child2 {
+  background-color: plum;
+  height: 150px;
+}
+
+.h4 {
+  font-size: 16px;
+  color: #fff;
+  margin: auto;
+}
+
+.text-wrap {
   font-size: 14px;
-  text-align: center;
   color: #fff;
 }
 
-.grid {
-  background: mediumvioletred;
-  height: 20%;
-  width: 30%;
+.flex__item {
   display: flex;
+  justify-content: space-between;
+}
+
+.practice__card {
+  width: 30%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.card__cat {
+  padding: 5px 10px;
+  background: mediumvioletred;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+
+.tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+.card__tag {
+  display: inline-block;
+  color: mediumvioletred
+}
+
+.card__date {
+  display: inline-block;
+  margin-left: 20px;
+  color: gray;
 }
