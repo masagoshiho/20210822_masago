@@ -154,10 +154,6 @@ span {
   top: 50%;
 }
 
-.photo {
-
-}
-
 
 .first__img {
   width: 50%;
@@ -208,6 +204,22 @@ width: 50%;
   color: #fff;
 }
 
+.blog {
+font-family: 'Indie Flower';
+  font-size: 8px;
+  color: mediumvioletred;
+  position: relative;
+  top: 50%;
+}
+
+.blog-wrap {
+  font-size: 14px;
+  color: grey;
+  top: 50%;
+}
+
+
+
 .flex__item {
   display: flex;
   justify-content: space-between;
@@ -219,7 +231,7 @@ width: 50%;
 }
 
 .card__img img {
-  width: 100%;
+  width: 50%;
 }
 
 .card__content {
@@ -235,10 +247,10 @@ width: 50%;
 .card__cat {
   padding: 5px 10px;
   background: mediumvioletred;
-  margin-bottom: 15px;
   display: inline-block;
   color: #fff;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 .tag {
@@ -255,4 +267,73 @@ width: 50%;
   display: inline-block;
   margin-left: 20px;
   color: gray;
+}
+
+.company {
+  font-family: 'Indie Flower';
+  font-size: 8px;
+  color: mediumvioletred;
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+
+.company-wrap {
+  font-size: 14px;
+  color: grey;
+  top: 50%;
+  text-align: center;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.ttl {
+  display: flex;
+}
+
+.mv {
+  position: relative;
+  background: url(../img/recruit.png) no-repeat left/cover;
+  height: 50vh;
+  width: 50vw;
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+}
+
+.mv-wrap {
+  position: relative;
+  background: url(../img/interview.png) no-repeat right/cover;
+  height: 50vh;
+  width: 50vw;
+}
+
+.content-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
 }
