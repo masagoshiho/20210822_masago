@@ -337,3 +337,33 @@ table th {
   font-size: 40px;
   color: #fff;
 }
+
+.link {
+  font-size: 14px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  width: 100%;
+  background-color: darkgray;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+}
+
+.footer-ttl {
+  font-size: 14px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: gray;
+}
