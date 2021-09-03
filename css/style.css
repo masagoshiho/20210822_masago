@@ -339,8 +339,38 @@ table th {
 }
 
 .link {
-  font-size: 14px;
+  font-size: 30px;
+  font-weight: bold;
   color: gray;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.download__btn {
+  position: relative;
+  background-color: mediumvioletred;
+  width: 200px;
+  display: block;
+  padding: 18;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+.download__btn::before {
+  content: "";
+  position: absolute;
+  margin-top: 50%;
+  right: 15px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  transform: translate(0, -50%);
 }
 
 a {
