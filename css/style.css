@@ -32,13 +32,12 @@ header {
   background-image: url("../img/firstview.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
 }
 
 .title-wrap {
   position: absolute;
   top: 53px;
-  right: 50%;
+  left: 50%;
   margin: auto;
 }
 
@@ -140,6 +139,10 @@ span {
   top: 30%;
 }
 
+.photo {
+  margin: auto;
+}
+
 .service {
   font-family: 'Indie Flower';
   font-size: 8px;
@@ -179,16 +182,35 @@ width: 50%;
 
 .box1 {
   background-color: mediumvioletred;
-  height: 300px;
-  
+  height: 250px;
+  width: 90%;
 }
 
 .child1 {
+  background-color: mediumvioletred;
+  height: 150px;
+  padding: 0 30px;
+}
+
+
+.child2 {
+  background-color: palevioletred;
+  height: 150px;
+  display: flex;
+}
+
+.child3 {
   background-color: palevioletred;
   height: 150px;
 }
 
-.child2 {
+.child4 {
+  background-color: plum;
+  height: 150px;
+  display: flex;
+}
+
+.child5 {
   background-color: plum;
   height: 150px;
 }
@@ -196,7 +218,7 @@ width: 50%;
 .h4 {
   font-size: 16px;
   color: #fff;
-  margin: auto;
+  text-align: center;
 }
 
 .text-wrap {
