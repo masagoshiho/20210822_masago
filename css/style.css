@@ -37,7 +37,7 @@ header {
 .title-wrap {
   position: absolute;
   top: 53px;
-  left: 50%;
+  left: -30%;
   margin: auto;
 }
 
@@ -84,7 +84,13 @@ span {
   list-style: none;
   border-top: 1px solid darkgray;
   border-bottom: 1px solid darkgray;
+}
 
+.list {
+  display: flex;
+  border-bottom: 1px solid darkgray;
+  line-height: 24px;
+  text-align: center;
 }
 
 .btn {
@@ -107,6 +113,7 @@ span {
   background-color: #ebebeb;
   padding: 60px 0;
   margin-top: 100px;
+  margin: auto;
 }
 
 .about {
@@ -115,28 +122,40 @@ span {
   color: mediumvioletred;
   position: relative;
   top: 50%;
-  text-align: justify;
+  text-align: center;
 }
 
 .Technology {
   font-size: 14px;
   color: grey;
   top: 50%;
+  text-align: center;
+}
+
+
+.item-ing {
+  display: flex;
+}
+
+.center-box1 {
+margin-left: 50px;
+display: flex;
 }
 
 .item__img img {
  background-image: url("../img/about.jpg");
  background-size: cover;
  background-repeat: no-repeat;
- background-position: right;
  width: 30%;
- height: 30%;
+ margin: 0 20% 0 30%;
 }
 
 
 .item__content {
   color: grey;
   top: 30%;
+  left: 50%;
+  margin: 30px 0;
 }
 
 .photo {
@@ -159,9 +178,9 @@ span {
 
 
 .first__img {
-  width: 50%;
-  height: 50%;
-  background-position: center;
+  width: 60%;
+  height: 60%;
+  margin: 0 50px;
 }
 
 .flex {
@@ -188,8 +207,8 @@ width: 50%;
 
 .child1 {
   background-color: mediumvioletred;
-  height: 150px;
-  padding: 0 30px;
+  height: 125px;
+  padding: 0 50px;
 }
 
 
@@ -215,7 +234,7 @@ width: 50%;
   height: 150px;
 }
 
-.h4 {
+.first {
   font-size: 16px;
   color: #fff;
   text-align: center;
@@ -249,11 +268,20 @@ font-family: 'Indie Flower';
 
 .practice__card {
   width: 30%;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-box1 {
+  position: relative;
+}
+
+.blog-box2 {
+  position: absolute;
+
 }
 
 .card__img img {
-  width: 50%;
+  width: 100%;
 }
 
 .card__content {
@@ -273,6 +301,7 @@ font-family: 'Indie Flower';
   color: #fff;
   font-size: 14px;
   border-radius: 10px;
+  
 }
 
 .tag {
@@ -297,19 +326,20 @@ font-family: 'Indie Flower';
   color: mediumvioletred;
   position: relative;
   top: 50%;
-  text-align: center;
+  margin-left: 20%;
 }
 
 .company-wrap {
   font-size: 14px;
   color: grey;
   top: 50%;
-  text-align: center;
+  margin-left: 20%;
 }
 
 table {
   width: 60%;
   border-collapse: collapse;
+  margin-left: 20%;
 }
 
 table th,
