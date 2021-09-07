@@ -310,14 +310,15 @@ font-family: 'Indie Flower';
 }
 
 .card__tag {
-  display: inline-block;
-  color: mediumvioletred
+  color: gray;
+  text-align: right;
 }
 
 .card__date {
-  display: inline-block;
   margin-left: 20px;
   color: gray;
+  text-align: left;
+  display: flex;
 }
 
 .company {
