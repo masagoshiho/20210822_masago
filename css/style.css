@@ -25,7 +25,7 @@ header {
   height: 70%;
   position: relative;
   top: 30px;
-  left: 50%;
+  margin-left: 40%;
 }
 
 .growth__img {
@@ -65,6 +65,7 @@ span {
   font-family: 'Indie Flower';
   font-size: 8px;
   margin-left: 20%;
+  margin-top: 5%;
   color: mediumvioletred;
   left: 50px;
 }
@@ -83,14 +84,12 @@ span {
   color: darkgray;
   list-style: none;
   border-top: 1px solid darkgray;
-  border-bottom: 1px solid darkgray;
 }
 
 .list {
   display: flex;
   border-bottom: 1px solid darkgray;
   line-height: 24px;
-  text-align: center;
 }
 
 .btn {
@@ -109,11 +108,9 @@ span {
   border: solid 0.5px darkgray;
 }
 
-.item {
+.item-box {
   background-color: #ebebeb;
   padding: 60px 0;
-  margin-top: 100px;
-  margin: auto;
 }
 
 .about {
@@ -138,8 +135,8 @@ span {
 }
 
 .center-box1 {
-margin-left: 50px;
-display: flex;
+ margin-left: 50px;
+ display: flex;
 }
 
 .item__img img {
@@ -250,34 +247,35 @@ font-family: 'Indie Flower';
   font-size: 8px;
   color: mediumvioletred;
   position: relative;
-  top: 50%;
+  left: 20%;
 }
 
 .blog-wrap {
   font-size: 14px;
   color: grey;
   top: 50%;
+  left: 20%;
 }
-
-
 
 .flex__item {
   display: flex;
   justify-content: space-between;
+  left: 20%;
+}
+
+.item {
+  background-color: #ebebeb;
+  padding: 60px 0;
+  display: flex;
 }
 
 .practice__card {
-  width: 30%;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.blog-box1 {
-  position: relative;
-}
-
-.blog-box2 {
-  position: absolute;
-
+  width: 20%;
+  border-radius: 20px 20px;
+  margin: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
+  margin-top: 5%;
+  left: 20%;
 }
 
 .card__img img {
