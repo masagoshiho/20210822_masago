@@ -247,14 +247,14 @@ font-family: 'Indie Flower';
   font-size: 8px;
   color: mediumvioletred;
   position: relative;
-  left: 20%;
+  left: 10%;
 }
 
 .blog-wrap {
   font-size: 14px;
   color: grey;
   top: 50%;
-  left: 20%;
+  left: 10%;
 }
 
 .flex__item {
@@ -267,11 +267,12 @@ font-family: 'Indie Flower';
   background-color: #ebebeb;
   padding: 60px 0;
   display: flex;
+  justify-content: center;
 }
 
 .practice__card {
   width: 20%;
-  border-radius: 20px 20px;
+  border-radius: 20px;
   margin: 0 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
   margin-top: 5%;
@@ -280,6 +281,8 @@ font-family: 'Indie Flower';
 
 .card__img img {
   width: 100%;
+  background: url(../img/blog__first.jpg);
+  background-repeat: no-repeat;
 }
 
 .card__content {
@@ -293,13 +296,13 @@ font-family: 'Indie Flower';
 }
 
 .card__cat {
-  padding: 5px 10px;
+  padding: 0 10px;
   background: mediumvioletred;
   display: inline-block;
   color: #fff;
   font-size: 14px;
-  border-radius: 10px;
-  
+  border-radius: 10px 0 0 0;
+  margin-left: 20%;
 }
 
 .tag {
