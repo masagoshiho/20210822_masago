@@ -82,14 +82,19 @@ span {
   font-size: 14px;
   margin-left: 20%;
   color: darkgray;
-  list-style: none;
+}
+
+.blod {
   border-top: 1px solid darkgray;
+  width: 40%;
+  margin-left: 22%;
 }
 
 .list {
   display: flex;
   border-bottom: 1px solid darkgray;
   line-height: 24px;
+  width: 50%;
 }
 
 .btn {
@@ -130,28 +135,26 @@ span {
 }
 
 
-.item-ing {
+.item-img {
   display: flex;
 }
 
 .center-box1 {
- margin-left: 50px;
+ margin-left: 20%;
  display: flex;
 }
 
 .item__img img {
  background-image: url("../img/about.jpg");
- background-size: cover;
  background-repeat: no-repeat;
  width: 30%;
- margin: 0 20% 0 30%;
+ margin: 20px 30%;
 }
 
 
 .item__content {
   color: grey;
   top: 30%;
-  left: 50%;
   margin: 30px 0;
 }
 
@@ -280,6 +283,7 @@ font-family: 'Indie Flower';
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
   margin-top: 5%;
   left: 20%;
+  background: #fff;
 }
 
 .card__img img {
@@ -461,16 +465,15 @@ a {
 .footer {
   width: 100%;
   background-color: darkgray;
-  padding: 20px 0;
-  text-align: center;
+  padding: 10px 0;
   display: flex;
 }
 
 .footer-ttl {
   font-size: 14px;
-  width: 50%;
-  text-align: center;
   margin-bottom: 30px;
+  color: gray;
+  margin-left: 40%;
 }
 
 .copyright {
