@@ -67,7 +67,7 @@ span {
   font-size: 8px;
   margin-top: 5%;
   color: mediumvioletred;
-  left: 50px;
+  margin-left: 20%;
 }
 
 .sample {
@@ -158,6 +158,7 @@ span {
 .photo {
   margin: auto;
   width: 1000px;
+  margin-top: 5%;
 }
 
 .service {
@@ -269,6 +270,7 @@ font-family: 'Indie Flower';
   padding: 70px 0;
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .practice__card {
@@ -380,6 +382,7 @@ table th {
 
 .ttl {
   display: flex;
+  margin-top: 5%;
 }
 
 .mv {
