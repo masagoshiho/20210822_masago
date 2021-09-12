@@ -32,6 +32,7 @@ header {
   background-image: url("../img/firstview.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .title-wrap {
@@ -64,7 +65,6 @@ span {
 .example {
   font-family: 'Indie Flower';
   font-size: 8px;
-  margin-left: 20%;
   margin-top: 5%;
   color: mediumvioletred;
   left: 50px;
@@ -157,6 +157,7 @@ span {
 
 .photo {
   margin: auto;
+  width: 1000px;
 }
 
 .service {
@@ -247,7 +248,7 @@ font-family: 'Indie Flower';
   font-size: 8px;
   color: mediumvioletred;
   position: relative;
-  left: 10%;
+  left: 15px;
 }
 
 .blog-wrap {
@@ -265,7 +266,7 @@ font-family: 'Indie Flower';
 
 .item {
   background-color: #ebebeb;
-  padding: 60px 0;
+  padding: 70px 0;
   display: flex;
   justify-content: center;
 }
@@ -283,6 +284,11 @@ font-family: 'Indie Flower';
   width: 100%;
   background: url(../img/blog__first.jpg);
   background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
+
+.card__img {
+  position: relative;
 }
 
 .card__content {
@@ -302,7 +308,8 @@ font-family: 'Indie Flower';
   color: #fff;
   font-size: 14px;
   border-radius: 10px 0 0 0;
-  margin-left: 20%;
+  position: absolute;
+  left: 0;
 }
 
 .tag {
@@ -322,6 +329,21 @@ font-family: 'Indie Flower';
   display: flex;
 }
 
+.practice__btn {
+  width: 200px;
+  padding: 10px 0;
+  color: mediumvioletred;
+  border-radius: 30px;
+  background-color: #fff;
+  border-color: mediumvioletred;
+  text-align: center;
+  margin: 100px auto 0;
+  display: block;
+  position: absolute;
+  left: 40%;
+  margin: 10px 0;
+}
+
 .company {
   font-family: 'Indie Flower';
   font-size: 8px;
@@ -329,6 +351,7 @@ font-family: 'Indie Flower';
   position: relative;
   top: 50%;
   margin-left: 20%;
+  margin-top: 5%;
 }
 
 .company-wrap {
