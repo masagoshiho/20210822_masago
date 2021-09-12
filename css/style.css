@@ -335,12 +335,12 @@ font-family: 'Indie Flower';
   color: mediumvioletred;
   border-radius: 30px;
   background-color: #fff;
-  border-color: mediumvioletred;
+  border: 1px solid mediumvioletred;
   text-align: center;
   margin: 100px auto 0;
   display: block;
   position: absolute;
-  left: 40%;
+  left: 45%;
   margin: 10px 0;
 }
 
