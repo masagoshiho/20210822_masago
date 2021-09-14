@@ -67,12 +67,12 @@ span {
   font-size: 8px;
   margin-top: 5%;
   color: mediumvioletred;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 .sample {
   font-size: 14px;
-  margin-left: 20%;
+  margin-left: 30%;
   color: grey;
   left: 50px;
 }
@@ -80,14 +80,14 @@ span {
 
 .news {
   font-size: 14px;
-  margin-left: 20%;
+  margin-left: 27%;
   color: darkgray;
 }
 
 .blod {
   border-top: 1px solid darkgray;
-  width: 40%;
-  margin-left: 22%;
+  width: 35%;
+  margin-left: 30%;
 }
 
 .list {
@@ -147,7 +147,7 @@ span {
 .item__img img {
  background-image: url("../img/about.jpg");
  background-repeat: no-repeat;
- width: 30%;
+ width: 40%;
  margin: 20px 30%;
 }
 
